@@ -1,1 +1,12 @@
-
+git init: Initializes a new Git repository in the current directory.
+git clone [repository URL]: Copies an existing Git repository from a remote source to your local machine.
+git add [file]: Adds a file or directory to the staging area, preparing it to be committed.
+git commit -m "[commit message]": Records changes to the repository with a descriptive message summarizing the changes.
+git status: Displays the current status of the repository, including which files are staged, unstaged, or untracked.
+git push: Uploads local repository content to a remote repository.
+git pull: Fetches changes from a remote repository and merges them into the current branch.
+git branch [branch name]: Creates a new branch with the specified name.
+git checkout [branch name or commit hash]: Switches to a different branch or commits specified by the commit hash.
+git merge [branch name]: Combines changes from the specified branch into the current branch.
+A pull request is a proposal to merge a set of changes from one branch into another. In a pull request, collaborators can review and discuss the proposed set of changes before they integrate the changes into the main codebase.
+Releases are deployable software iterations you can package and make available for a wider audience to download and use. Releases are based on Git tags, which mark a specific point in your repository's history. A tag date may be different than a release date since they can be created at different times.
